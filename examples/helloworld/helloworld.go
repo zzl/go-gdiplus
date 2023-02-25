@@ -14,8 +14,8 @@ import (
 		{
 		   Graphics    graphics(hdc);
 
-	       Pen      pen(Color(255, 0, 0, 255));
-	       graphics.DrawLine(&pen, 32, 64, 200, 64);
+		   Pen      pen(Color(255, 0, 0, 255));
+		   graphics.DrawLine(&pen, 32, 64, 200, 64);
 
 		   SolidBrush  brush(Color(255, 0, 0, 255));
 		   FontFamily  fontFamily(L"Times New Roman");
